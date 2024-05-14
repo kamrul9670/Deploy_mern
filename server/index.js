@@ -26,7 +26,7 @@
       app.use(cors(
 
             {
-              origin : ["https://flipcartdupli.netlify.app"] ,
+              origin : ["flipkart-client-umber.vercel.app"] ,
               methods :  ["POST" , "GET" ] ,
               credentials : true
             }
