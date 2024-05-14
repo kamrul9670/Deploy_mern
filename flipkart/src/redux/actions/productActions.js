@@ -4,8 +4,7 @@
       import * as actionTypes from '../constrants/productConstrant';
 
 
-       const URL = 'https://deploy-mern-ten.vercel.app
-';
+       const URL = 'https://deploy-mern-ten.vercel.app';
 
 
     export const getProducts = () => async (dispatch)   =>  {
