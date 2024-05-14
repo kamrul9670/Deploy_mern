@@ -22,16 +22,14 @@
         const app = express();
             
    dotenv.config();
-       
-      app.use(cors(
 
-            {
-              origin : ["flipkart-client-umber.vercel.app"] ,
-              methods :  ["POST" , "GET" ] ,
-              credentials : true
-            }
 
-      ));
+      app.use(cors({
+  origin: ['https://flipkart-client-umber.vercel.app'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Add other methods as needed
+  credentials: true,
+  allowedHeaders: ['Content-Type', 'Authorization'], // Add other headers if needed
+}));
 
       app.get("/" , (req , res) =>  {
         res.json("Sucessfully deploy Server");
