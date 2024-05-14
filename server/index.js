@@ -26,7 +26,7 @@
       app.use(cors(
 
             {
-              origin : ["https://flipcartdupli.netlify.app/"] ,
+              origin : ["https://flipcartdupli.netlify.app"] ,
               methods :  ["POST" , "GET" ] ,
               credentials : true
             }
