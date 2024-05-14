@@ -2,7 +2,8 @@
 
      import axios from 'axios';
 
-       const URL = 'http://localhost:8000';
+       const URL = 'deploy-mern-api-eight.vercel.app
+';
 
      export const authenticateSignup  = async (data)  =>  {
 
