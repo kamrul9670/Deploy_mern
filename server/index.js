@@ -26,7 +26,7 @@
       app.use(cors(
 
             {
-              origin : ["https://flipkartclone-deploy.vercel.app"] ,
+              origin : [""] ,
               methods :  ["POST" , "GET" ] ,
               credentials : true
             }
