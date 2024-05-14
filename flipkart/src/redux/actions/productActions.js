@@ -4,7 +4,7 @@
       import * as actionTypes from '../constrants/productConstrant';
 
 
-       const URL = 'http://deploy-mern-api-eight.vercel.app
+       const URL = 'https://deploy-mern-ten.vercel.app
 ';
 
 
