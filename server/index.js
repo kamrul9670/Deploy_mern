@@ -26,7 +26,7 @@
       app.use(cors(
 
             {
-              origin : [""] ,
+              origin : ["https://deploy-mern-frontend-livid.vercel.app"] ,
               methods :  ["POST" , "GET" ] ,
               credentials : true
             }
