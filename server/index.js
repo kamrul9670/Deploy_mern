@@ -26,7 +26,7 @@
       app.use(cors(
 
             {
-              origin : ["https://deploy-mern-frontend-livid.vercel.app"] ,
+              origin : ["https://flipcartdupli.netlify.app/"] ,
               methods :  ["POST" , "GET" ] ,
               credentials : true
             }
