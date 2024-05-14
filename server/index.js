@@ -23,7 +23,19 @@
             
    dotenv.config();
        
-      app.use(cors());
+      app.use(cors(
+
+            {
+              origin : ["https://flipkartclone-deploy.vercel.app"] ,
+              methods :  ["POST" , "GET" ] ,
+              credentials : true
+            }
+
+      ));
+
+      app.get("/" , (req , res) =>  {
+        res.json("Sucessfully deploy Server");
+      })
 
       app.use(bodyParser.json({extended : true }))
       app.use(bodyParser.urlencoded({extended : true }))
