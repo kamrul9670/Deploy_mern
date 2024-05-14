@@ -6,8 +6,7 @@ import axios from 'axios';
 
 export const addToCart = (id, quantity,decrement=false) => async (dispatch) => {
     try { 
-        const { data } = await axios.get(`http://deploy-mern-api-eight.vercel.app
-/product/${id}`);
+        const { data } = await axios.get(`https://deploy-mern-ten.vercel.app/product/${id}`);
 
         dispatch({ type: actionTypes.ADD_TO_CART, payload: { ...data, quantity } });
 
